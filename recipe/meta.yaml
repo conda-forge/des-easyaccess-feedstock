@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/des-labs/easyaccess/archive/refs/tags/{{ version }}.tar.gz
   sha256: 1f959fb9c5ded733e0c9cf5746a505b0a1d3664005eb3b9e564c3489edfaa01a
+  patches:
+    - version_patch.txt
 
 build:
   number: 0
@@ -26,7 +28,7 @@ requirements:
     - termcolor >=1.1.0
     - fitsio >=1.0.5
     - cx_oracle
-    - numpy
+    - numpy >=1.19.2
     - setuptools
 
 test:
