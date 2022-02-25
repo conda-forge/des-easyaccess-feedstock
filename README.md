@@ -1,7 +1,7 @@
 About des-easyaccess
 ====================
 
-Home: https://github.com/mgckind/easyaccess
+Home: https://github.com/des-labs/easyaccess
 
 Package license: MIT
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/des-easyaccess-
 
 Summary: SQL command line interpreter for astronomical surveys
 
-Development: https://github.com/mgckind/easyaccess
+Development: https://github.com/des-labs/easyaccess
 
 easyaccess is an enhanced command line interpreter and Python package
 created to facilitate access to astronomical catalogs stored in SQL
@@ -199,7 +199,4 @@ Feedstock Maintainers
 =====================
 
 * [@beckermr](https://github.com/beckermr/)
-
-
-<!-- dummy commit to enable rerendering -->
 
