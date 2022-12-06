@@ -1,5 +1,5 @@
 {% set name = "des-easyaccess" %}
-{% set version = "1.4.10" %}
+{% set version = "1.4.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/des-labs/easyaccess/archive/refs/tags/{{ version }}.tar.gz
-  sha256: e0d02d40da90a84eb1f3171c7d7d4ea4db00bb5d87ac06332d8814366930c3f6
+  sha256: 9e9c4b244aa18d2a710cd41e6b8fae9fece7e735d9c9b6db28a9a1341d36479e
   patches:
     - version_patch.txt
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win]
 
