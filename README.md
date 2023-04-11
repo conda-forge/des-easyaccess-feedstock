@@ -1,11 +1,11 @@
-About des-easyaccess
-====================
+About des-easyaccess-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/des-easyaccess-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/des-labs/easyaccess
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/des-easyaccess-feedstock/blob/main/LICENSE.txt)
 
 Summary: SQL command line interpreter for astronomical surveys
 
