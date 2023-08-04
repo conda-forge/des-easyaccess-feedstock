@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/des-labs/easyaccess/archive/refs/tags/{{ version }}.tar.gz
-  sha256: dfc6d83d49cd3458eb14330e61517eca2629c5c929ecc5a411dec21afea29cd9
+  sha256: 812932304de26966de26e6984d0599fcf156c495a345aed89cd76e6e5e469751
   patches:
     - version_patch.txt
 
